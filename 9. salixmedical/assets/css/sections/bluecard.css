@@ -1,0 +1,39 @@
+
+.blcard__container{
+    background-color: #2898b8;
+}
+
+.blcard{
+    padding: 19px 23px 34px;
+    background: #fff;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow:0px 2px 15px #74747480;
+}
+
+.blcard-head > h4,
+.blcard-head > a > h4{
+    color: #006993;
+    font-weight: 700;
+}
+
+.blcard-copy{
+    padding: 25px 40px;
+}
+
+.blcard > .blcard-btn > a.link > button{
+    padding: 18px 30px;
+    color: #006993;
+    background: #fff;
+    border: 1px solid rgb(174, 174, 178);
+    border-radius: 4px;
+}
+.blcard > .blcard-btn > a.link:hover > button{
+    color: #fff;
+    background: #aeaeb2;
+    text-decoration: none;
+}
+
+.blcard > .blcard-btn > a.link > button > span{
+    margin-left: 10px;
+}

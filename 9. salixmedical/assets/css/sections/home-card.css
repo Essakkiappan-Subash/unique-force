@@ -1,0 +1,80 @@
+
+
+.scard__container,
+.mcard__container{
+    margin-bottom: 30px;
+}
+
+.scard__container .item-list,
+.mcard__container .item-list{
+    margin: 20px 0 50px;
+    text-align: center;
+}
+
+.scard__container > .row > .col-lg{
+    width: min-content;
+}
+
+.scard{
+    width: 240px;
+    margin: 0;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow:0px 2px 15px #74747480;
+    overflow: hidden;
+}
+
+.scard > .scard-img > img{
+    width: 100%;
+}
+
+.scard-body{
+    padding: 8px 20px 28px;
+}
+
+.scard-body > .head > h5.heading{
+    min-height: 90px;
+    padding: 0 5px;
+    color: #2898b8;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.scard-body > .head > p.text{
+    min-height: 168px;
+    margin: 0;
+}
+
+.scard-body > .links,
+.mcard-body > .links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.mcard{
+    border-radius: 6px;
+    box-shadow:0px 2px 15px #74747480;
+    overflow: hidden;
+}
+
+.mcard > .mcard-img{
+    height: 84px;
+    padding: 15px;
+    background: #006993;
+    display: flex;
+    justify-content: center;
+}
+
+.mcard-body{
+    padding: 25px 20px 30px;
+}
+
+.mcard-body > .head > p.text{
+    min-height: 108px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,26 @@
+
+.item-list{
+    margin-bottom: 20px;
+}
+
+.item-link{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a.link{
+    color: #006993;
+    font-size: 18px;
+}
+a.link:hover{
+    text-decoration: underline;
+}
+
+a > span{
+    margin-left: 10px;
+}
+
+
+a.call-refer{
+    cursor: pointer;
+}

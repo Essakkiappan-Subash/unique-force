@@ -1,0 +1,105 @@
+
+
+
+.engage-head > .page-heading{
+    margin: 50px 0 30px;
+}
+
+
+.salix-corporate-img{
+    width: 88%;
+    height: auto;
+}
+
+.salix-corporate-info{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.salix-contact{
+    margin-top: -400px;
+    width: 456px;
+    padding: 56px 40px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px #74747480;
+}
+
+.salix-contact > .contact-us{
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.salix-contact > h5{
+    margin-bottom: 14px;
+    color: #006993;
+    font-size: 21px;
+    font-weight: 900;
+}
+
+.salix-contact > .contact-info{
+    color: #4a4a4a;
+    font-size: 14px;
+}
+.salix-contact > .contact-info:last-child{
+    margin: 0;
+}
+
+.salix-contact > .contact-info > a{
+    color: #006993;
+    text-decoration: underline;
+}
+.salix-contact > .contact-info > a:hover{
+    text-decoration: none;
+}
+
+
+.engage__cta{
+    margin: 50px 0px;
+}
+
+.engage__cout > p.engage-heading{
+    margin-bottom: 8px;
+    color: #006993;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.engage__cout > p:nth-child(2) {
+    color: #4a4a4a;
+    font-size: 16px;
+    /* font-weight: 700; */
+}
+
+.engage__cout > .engage__cout-img > img{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .salix-contact{
+        margin-top: -390px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .salix-contact{
+        margin-top: -370px;
+    }
+
+    
+    .engage__cout > p:nth-child(2) {
+        min-height: 80px;   
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .salix-contact{
+        margin-top: -320px;
+    }
+}

@@ -1,0 +1,262 @@
+
+.form-head > h5.heading{
+    color: #2898b8;
+}
+
+.msl-form{
+    margin: 50px 0;
+    border: 1px solid #c1c7d0;
+    border-radius: 5px;
+}
+
+.form__space{
+    padding: 0px 20px;
+}
+
+.form__head{
+    padding: 20px 0px 10px;
+    border-bottom: 1px solid #c1c7d0;
+}
+
+.form__copy{
+    padding: 20px 0 0;
+}
+
+/* .form__head > .form__space > p:first-child{} */
+
+.form__head > .form__space > h2.list-head{
+    color: #006993;
+}
+
+.form__copy > .form__space > p.required{
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+
+.form__field > .form__space > .form-group{
+    margin-bottom: 24px;
+}
+
+/* .form__field > .form__space > .form-group.phone-field-form-group,
+.form__field > .form__space > .form-group.email-field-form-group{
+    display: none;
+} */
+
+.form__field > .form__space > .form-group > .chck-box{
+    margin-top: 30px;
+}
+
+.form__field > .form__space > .form-group > label,
+.form__field > .form__space > .form-group > .chck-box > label,
+.form__field > .form__space > .form-group > .chck-box > .chck-boxes > label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+}
+
+.form__field > .form__space > .form-group > .chck-box > label{
+    margin-bottom: 12px;
+}
+
+.form__field > .form__space > .form-group > .chck-box > .chck-boxes > label{
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.form__field > .form__space > .form-group > .chck-box > .chck-boxes > label > input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.form__field > .form__space > .form-group > input,
+.form__field > .form__space > .form-group > ul.select,
+.form__field > .form__space > .form-group > textarea{
+    width: 100%;
+    padding: 18px 40px 18px 15px;
+    background-color: #d8d8d833;
+    border: 1px solid #747474;
+    border-radius: 4px;
+    outline: none;
+}
+.form__field > .form__space > .form-group > ul.select,
+.form__field > .form__space > .form-group > textarea{
+    color: #747474;
+    background-color: transparent;
+}
+
+.form__field > .form__space > .form-group > ul.select{
+    position: relative;
+}
+.form__field > .form__space > .form-group > ul.select::after{
+    content: url(../../img/icons/icon-1x1-caret-down.svg);
+    position: absolute;
+    top: 18px;
+    right: 32px;
+}
+.form__field > .form__space > .form-group > ul.select.open::after{
+    transform: rotate(180deg);
+}
+
+.form__field > .form__space > .form-group > ul.select.open > li.select-option{
+    display: none;
+}
+
+.form__field > .form__space > .form-group > ul.select > li.select-option > div{
+    font-size: 14px;
+}
+
+.form__field > .form__space > .form-group > ul.select > ul.options > li.option > div{
+    margin-top: 8px;
+    font-size: 14px;
+}
+.form__field > .form__space > .form-group > ul.select > ul.options > li.option:first-child > div{
+    margin-top: 0;
+}
+
+.form__field > .form__space > .form-group > ul.select > ul.options{
+    display: none;
+}
+.form__field > .form__space > .form-group > ul.select.open > ul.options{
+    display: block;
+}
+
+.form__field > .form__space > .form-group > ul.select > ul.options > hr{
+    margin: 8px 0 0;
+    color: #747474;
+    border: 1px solid #747474;
+}
+
+.form__field > .form__space > .form-group > p{
+    font-size: 16px;
+    visibility: hidden;
+}
+.form__field > .form__space > .form-group.error > p{
+    color: #ff0000;
+    visibility: visible;
+}
+/* .form__field > .form__space > .form-group.filled > p{
+    color: #ff0000;
+    visibility: visible;
+} */
+
+.form-btn{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn > .btn{
+    padding: 15px 40px;
+    color: #fff;
+    font-weight: 900;
+    background-color: #006993;
+    outline: none;
+}
+.form-btn > .btn:hover{
+    background-color: #00597c;
+}
+
+
+
+
+/* Reference PopUp */
+.providerpopup,
+.submition{
+    width: 100vw;
+    height: 100vh;
+    color: #4b4b4b;
+    background-color: #7f7f7f60;
+    display: none;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.providerpopup.active,
+.submition.active{
+    display: flex;
+}
+
+.provider__container,
+.submition__container{
+    width: 920px;
+    height: max-content;
+    margin-top: 10%;
+    padding: 50px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.provider__container > .leaving-text > p{
+    margin-bottom: 30px;
+    color: #4a4a4a;
+    line-height: 28px;
+}
+
+.provider__container > .leaving-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.provider__container > .leaving-btns > a.btn{
+    width: 418px;
+    padding: 13px 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.provider__container > .leaving-btns > a.proceed-btn{
+    background: #006993;
+}
+.provider__container > .leaving-btns > a.proceed-btn:hover{
+    background: #005973;
+}
+
+.provider__container > .leaving-btns > a.cancel-btn{
+    background: #AEAEB2;
+}
+.provider__container > .leaving-btns > a.cancel-btn:hover{
+    background: #8a8a8e;
+}
+/* Reference PopUp End */
+
+
+
+/* Form Submition PopUp */
+.submition__container > .leaving-text > h2.list-head{
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.submition__container > .leaving-text > p{
+    margin: 0 50px 55px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.submition__container > .links{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.submition__container > .links > a.link{
+    color: #006993;
+    font-size: 16px;
+}
+.submition__container > .links > a.link:hover{
+    text-decoration: none;
+}
+/* Reference PopUp End */

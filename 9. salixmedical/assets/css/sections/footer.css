@@ -1,0 +1,42 @@
+
+.footer{
+    padding: 25px 0;
+    color: #fff;
+    background-color: #747474;
+}
+
+.footer__links > ul{
+    display: flex;
+    gap: 26px;
+    justify-content: flex-end;
+}
+
+.footer__links > ul > li > a.footer__link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.footer__content{
+    margin-top: 40px;
+}
+
+.footer__logo-text{
+    margin-right: 90px;
+}
+
+.footer__logo-text > p,
+.footer__info-text > p{
+    color: #fff;
+    font-size: 13px;
+}
+
+.footer__info-text > p{
+    font-weight: 900;
+    text-align: right;
+}
+
+.footer__info-text > p.california > a{
+    color: #fff;
+    text-decoration: underline;
+}

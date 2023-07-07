@@ -1,0 +1,78 @@
+
+/* Home page banner */
+.banner__bg-img{
+    width: 100%;
+    background-image: url(../../img/assets-6-7/home-hero.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.banner__content{
+    margin: 0 60px 0 100px;
+}
+
+.banner__content > h1.banner-head{
+    margin-bottom: 14px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.banner__content > p{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* banner search area */
+.banner__searcharea{
+    margin: 10px 0 20px;
+    padding: 10px 20px 15px;
+    color: #fff;
+    background-color: #747474;
+}
+
+.searcharea-head > h2{
+    font-size: 36px;
+}
+
+.searcharea-fields > p{
+    margin-bottom: 0px;
+    font-size: 11px;
+    color: #fff;
+}
+
+.searcharea-fields .field > label{
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+.searcharea-fields .field > .dropdown{
+    padding: 16px 24px 16px 14px;
+    color: #747474;
+    background-color: #fff;
+    border: 1px solid #747474;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searcharea-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.searcharea-btn .btn{
+    padding: 11px 13px;
+    color: #fff;
+    background: #006993;
+}
+
+.searcharea-btn .btn > img{
+    margin-left: 18px;
+    text-align: center;
+}
+/* Home page banner End */
+
+

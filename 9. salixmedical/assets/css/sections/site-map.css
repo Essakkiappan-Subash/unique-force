@@ -1,0 +1,59 @@
+
+
+.sitemap{
+    padding: 50px 0;
+}
+
+.links-box{
+    width: 730px;
+    margin: 50px auto 20px;
+    padding: 30px 65px;
+    border: 1px solid #979797;
+}
+
+ul.menu > li{
+    margin-bottom: 24px;
+}
+
+ul.menu > li.innerpage{
+    margin: 0;
+}
+
+ul.menu > li > a{
+    color: #4a4a4a;
+    font-weight: 900;
+}
+
+ul.sub-menu > li{
+    margin-bottom: 10px;
+}
+
+ul.sub-menu{
+    margin: 13px 0 17px 31px;
+}
+
+ul.sub-menu > li > a{
+    color: #4a4a4a;
+}
+
+
+@media screen and (max-width: 991px){
+    .links-box{
+        width: 500px;
+        padding: 30px 50px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .links-box{
+        width: 350px;
+        padding: 15px 20px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .links-box{
+        width: 320px;
+        padding: 15px 20px;
+    }
+}
